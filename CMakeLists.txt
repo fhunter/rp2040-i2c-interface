@@ -28,6 +28,7 @@ pico_sdk_init()
 add_executable(${NAME}
     main.c
     usb_descriptors.c
+    i2c_spi/i2c_spi.c
 )
 
 target_include_directories(${NAME} PUBLIC
